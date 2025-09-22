@@ -11,4 +11,4 @@ This repository hosts the official smart contracts for the $IOB token and relate
 - Fork this repository.
 - Clone your fork locally:
   ```bash
-  git clone https://github.com/<your-username>/IOB-Smart-contract.git
+  git clone https://github.com/iobeatss/IOB-Smart-contract.git
