@@ -67,7 +67,7 @@ These smart contracts power the iO Beats token across multiple blockchains, ensu
   - ✅ Resistance to common attacks  
   - ✅ Recommendations for improvements  
 
-📄 [Download Full Audit Report (PDF)]([https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf])
+📄 [Download Full Audit Report (PDF)] [https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf]
 
 ---
 
