@@ -1,11 +1,12 @@
 # 🎶 IO Beats Smart Contracts
 
-![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)
-![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)
-![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)
+![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen?style=for-the-badge&logo=shield)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue?style=for-the-badge&logo=solidity)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative)
+![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple?style=for-the-badge&logo=ethereum)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue?style=for-the-badge&logo=openzeppelin)
+![Docs](https://img.shields.io/badge/Docs-Available-brightgreen?style=for-the-badge&logo=readthedocs)
+
 
 ---
 
