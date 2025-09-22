@@ -1,7 +1,6 @@
 # 🌐 IO Beats Multi-Chain Deployment  
 
 The $IOB token is deployed across multiple EVM-compatible blockchains, ensuring accessibility, scalability, and ecosystem growth.  
-
 [![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
