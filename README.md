@@ -1,7 +1,7 @@
 # IO Beats Smart Contracts  
 
 [![Audit](https://img.shields.io/badge/Audit-CoinScope-green)](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
-![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-blue)  
+[![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-blue)](./MULTICHAIN.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)  
 
 Official repository for the **$IOB token smart contracts**.  
