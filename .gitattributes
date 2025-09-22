@@ -1,0 +1,5 @@
+# Forcer GitHub Linguist à reconnaître les contrats Solidity
+*.sol linguist-language=Solidity
+
+# Exclure les fichiers flatten de l’analyse (optionnel, mais recommandé)
+*flat.sol linguist-generated=true
