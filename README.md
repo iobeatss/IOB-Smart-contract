@@ -27,6 +27,7 @@ Multi-chain deployment for accessibility and flexibility.
 ### Polygon  
 `0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b`  
 [View on PolygonScan](https://polygonscan.com/token/0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b)
+
 ---
 
 ### Arbitrum  
