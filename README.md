@@ -1,6 +1,6 @@
 # 🎶 IO Beats Smart Contracts
 
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)](https://cyberscope.io)
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)](https://www.cyberscope.io/audits/iob)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://soliditylang.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)
