@@ -1,11 +1,73 @@
 # 🎶 IO Beats Smart Contracts
 
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)](https://www.cyberscope.io/audits/iob)
-[![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://soliditylang.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)
-[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)](https://openzeppelin.com/contracts/)
-[![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)](https://iobeats.com)
+![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)
+![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)
+
+---
+
+## 📌 About
+
+**IO Beats ($IOB)** is a **Web3 music ecosystem** that connects **NFTs, DeFi utilities, and community governance**.  
+These smart contracts power the IO Beats token across multiple blockchains, ensuring **scalability, security, and accessibility**.
+
+- ✅ Built with **Solidity 0.8.24**
+- ✅ Powered by **OpenZeppelin**
+- ✅ Audited by **Cyberscope**
+- ✅ Deployed on **Ethereum, BNB Chain, Base, Polygon, and Arbitrum**
+
+---
+
+## 📑 Table of Contents
+
+- [Smart Contracts](#-smart-contracts)
+- [Audit](#-audit)
+- [Multi-Chain Deployment](#-multi-chain-deployment)
+- [Changelog](#-changelog)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🛠 Smart Contracts
+
+### Current Contracts (Audited)
+
+- **Ethereum (ERC20)**  
+  `0xCa2f286106e55264f923B838885CCDE6a621d710`
+
+- **BNB Chain (BEP20)**  
+  `0x83606b765b8e7180ef8e6fc33b93fdcaaa84d447`
+
+- **Base (ERC20)**  
+  `0x27df736a873ab5cc08e56e52459061ded1728da8`
+
+- **Polygon (ERC20)**  
+  `0xf49d9d9ad09a25630ffd0fd7ee7b26b7521969c3b`
+
+- **Arbitrum (ERC20)**  
+  `0x72803ae15E93742e5cf13f8116C53E99371344d`
+
+---
+
+## 🔍 Audit
+
+- **Audited by Cyberscope**
+- Covers:
+  - ✅ Smart contract security  
+  - ✅ Admin permissions  
+  - ✅ Resistance to common attacks  
+  - ✅ Recommendations for improvements  
+
+---
+
+## 🌐 Multi-Chain Deployment
+
+The $IOB token is deplo
+
 
 ---
 
