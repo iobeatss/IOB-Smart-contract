@@ -1,82 +1,107 @@
-# IO Beats Smart Contracts  
+# 🎶 IO Beats Smart Contracts
 
-![Audit](https://img.shields.io/badge/Audit-CoinScope-green)  
-![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-blue)  
-![License](https://img.shields.io/badge/License-MIT-yellow)  
-[![Docs](https://img.shields.io/badge/Documentation-Available-brightgreen)](https://github.com/iobeatss/iobeats-docs)
-
-Official repository for the **$IOB token smart contracts**.  
-IO Beats is a Web3 music ecosystem deployed on multiple EVM chains, combining NFTs, DeFi utilities, and community governance.  
+![Audit](https://img.shields.io/badge/Audit-Cyberscope-green.svg)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Framework-blue.svg)
+![Docs](https://img.shields.io/badge/Docs-Available-brightgreen.svg)
 
 ---
 
-## 🔹 Smart Contracts  
+## 📌 About
 
-### ✅ Current Contracts (Audited by CoinScope)  
+**IO Beats ($IOB)** is a **Web3 music ecosystem** that connects **NFTs, DeFi utilities, and community governance**.  
+These smart contracts power the IO Beats token across multiple blockchains, ensuring **scalability, security, and accessibility**.
+
+- ✅ Built with **Solidity 0.8.24**
+- ✅ Powered by **OpenZeppelin**
+- ✅ Audited by **Cyberscope**
+- ✅ Deployed on **Ethereum, BNB Chain, Base, Polygon, and Arbitrum**
+
+---
+
+## 📑 Table of Contents
+
+- [Smart Contracts](#-smart-contracts)
+- [Audit](#-audit)
+- [Multi-Chain Deployment](#-multi-chain-deployment)
+- [Changelog](#-changelog)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🛠 Smart Contracts
+
+### Current Contracts (Audited by Cyberscope)
 
 - **Ethereum (ERC20)**  
-  `0xc2aF820610e055264F928388B85CDEDe6A21d710`  
-  [View on Etherscan](https://etherscan.io/token/0xc2aF820610e055264F928388B85CDEDe6A21d710)
+  `0xCa2f286106e55264f923B838885CCDE6a621d710`  
+  🔗 [View on Etherscan](https://etherscan.io/address/0xCa2f286106e55264f923B838885CCDE6a621d710)
 
 - **BNB Chain (BEP20)**  
-  `0x0366bb765b8e7180f8e0f6c33b93fdcaa0a4d447`  
-  [View on BscScan](https://bscscan.com/token/0x0366bb765b8e7180f8e0f6c33b93fdcaa0a4d447)
+  `0x83606b765b8e7180ef8e6fc33b93fdcaaa84d447`  
+  🔗 [View on BscScan](https://bscscan.com/address/0x83606b765b8e7180ef8e6fc33b93fdcaaa84d447)
 
 - **Base (ERC20)**  
-  `0x27df736a873a5bc0ce056e52459d61ed1720da86`  
-  [View on BaseScan](https://basescan.org/token/0x27df736a873a5bc0ce056e52459d61ed1720da86)
+  `0x27df736a873ab5cc08e56e52459061ded1728da8`  
+  🔗 [View on BaseScan](https://basescan.org/address/0x27df736a873ab5cc08e56e52459061ded1728da8)
 
 - **Polygon (ERC20)**  
-  `0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b`  
-  [View on PolygonScan](https://polygonscan.com/token/0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b)
+  `0xf49d9d9ad09a25630ffd0fd7ee7b26b7521969c3b`  
+  🔗 [View on PolygonScan](https://polygonscan.com/address/0xf49d9d9ad09a25630ffd0fd7ee7b26b7521969c3b)
 
 - **Arbitrum (ERC20)**  
-  `0xc720D3a15E97347ec501fd3011613C5B9337134d`  
-  [View on ArbiScan](https://arbiscan.io/token/0xc720D3a15E97347ec501fd3011613C5B9337134d)
+  `0x72803ae15E93742e5cf13f8116C53E99371344d`  
+  🔗 [View on Arbiscan](https://arbiscan.io/address/0x72803ae15E93742e5cf13f8116C53E99371344d)
 
 ---
 
-### 🕑 Legacy Contracts (Audited by Cyberscope)  
+## 🔍 Audit
 
-These contracts were previously deployed and audited by **Cyberscope**.  
-They are preserved for transparency but are **no longer maintained**.  
+- **Audited by [Cyberscope](https://cyberscope.io/)**  
+- Covers:
+  - ✅ Smart contract security  
+  - ✅ Admin permissions  
+  - ✅ Resistance to common attacks  
+  - ✅ Recommendations for improvements  
 
-- **Ethereum (ERC20)** → `0xDaD68778f0a0732E232f27dc296e3602E12d108A`  
-  [View on Etherscan](https://etherscan.io/token/0xDaD68778f0a0732E232f27dc296e3602E12d108A)  
-
-- **BNB Chain (BEP20)** → `0x13ed5aC0a6AbE5bbB1881d75ad05Fe9e22478238`  
-  [View on BscScan](https://bscscan.com/token/0x13ed5aC0a6AbE5bbB1881d75ad05Fe9e22478238)  
-
-- **Polygon (ERC20)** → `0xee09fc58439f3bd514dd5cfb3b3e383e4788ecca`  
-  [View on PolygonScan](https://polygonscan.com/token/0xee09fc58439f3bd514dd5cfb3b3e383e4788ecca)  
-
-- **Base (ERC20)** → `0x80a23f168831d6e1f0a1353dbf3a75cae16cb709`  
-  [View on BaseScan](https://basescan.org/token/0x80a23f168831d6e1f0a1353dbf3a75cae16cb709)  
-
-- **Arbitrum (ERC20)** → `0x461db9ac7eca7955a1f87e300dde8b32cc0eaac0`  
-  [View on ArbiScan](https://arbiscan.io/token/0x461db9ac7eca7955a1f87e300dde8b32cc0eaac0)  
+📄 [Download Full Audit Report (PDF)](https://iobeats.com/audit.pdf) _(replace with your actual link)_
 
 ---
 
-## 🔹 Audit  
+## 🌐 Multi-Chain Deployment
 
-- **Current Contracts (CoinScope)** → [Audit Report](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
-- **Legacy Contracts (Cyberscope)** → [Audit Report](https://github.com/cyberscope-io/audits/blob/main/iob/v1/audit.pdf)  
+The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensuring **ecosystem growth and interoperability**.  
 
----
-
-## 🔹 Repository Structure  
-
-- `IOBToken_0.8.24.sol` → Current active smart contract  
-- `legacy/iobeats_0.8.16_legacy.sol` → Archived legacy contract  
-- `flattened/IOBToken_0.8.24_flat.sol` → Flattened source (for Etherscan verification)  
+For full details, see [MULTICHAIN.md](./MULTICHAIN.md).
 
 ---
 
-## 🔹 License  
+## 📜 Changelog
 
-This project is licensed under the [MIT License](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE).  
+See [CHANGELOG.md](./CHANGELOG.md) for contract updates, deployments, and version history.
 
 ---
 
-💡 *Note: Always use the **current CoinScope audited contracts** for integrations and exchanges. Legacy versions are for reference only.*  
+## 🤝 Contributing
+
+We welcome contributions!  
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to propose changes, submit PRs, or report issues.
+
+---
+
+## ⚖ License
+
+This project is licensed under the **MIT License**.  
+See [LICENSE](./LICENSE) for details.
+
+---
+
+### 💡 Credits
+
+- Built with ❤️ by **IO Beats Team**  
+- Website: [iobeats.com](https://iobeats.com)  
+- Community: [Telegram](https://t.me/iobeatscommunity) | [X/Twitter](https://twitter.com/iobeats)
+
