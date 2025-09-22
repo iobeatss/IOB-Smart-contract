@@ -1,5 +1,5 @@
 # 🎶 iO Beats Smart Contracts
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen?style=for-the-badge&logo=shield)](https://github.com/iobeatss/IOB-Smart-contract/audits)
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen?style=for-the-badge&logo=shield)](https://github.com//iobeatss/IOB-Smart-contract/blob/main/audit.pdf)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue?style=for-the-badge&logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=open-source-initiative)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple?style=for-the-badge&logo=ethereum)](https://github.com/iobeatss/IOB-Smart-contract#deployment)
