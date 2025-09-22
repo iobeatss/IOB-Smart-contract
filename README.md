@@ -60,7 +60,7 @@ These smart contracts power the iO Beats token across multiple blockchains, ensu
 
 ## 🔍 Audit
 
-- **Audited by [Cyberscope](https://cyberscope.io/)**  
+- **Audited by [Cyberscope](https://www.cyberscope.io/audits/iob)**  
 - Covers:
   - ✅ Smart contract security  
   - ✅ Admin permissions  
