@@ -7,7 +7,7 @@ We currently support and maintain the following smart contract versions:
 - ⚠️ `iobeats_0.8.16_legacy.sol` → Legacy contract (not maintained, for reference only)  
 
 ## Reporting a Vulnerability
-We take security very seriously at **IO Beats**.  
+We take security very seriously at **iO Beats**.  
 If you discover a vulnerability in our contracts or related infrastructure:
 
 1. **Do not disclose it publicly** until it has been reviewed and patched.  
@@ -20,4 +20,4 @@ If you discover a vulnerability in our contracts or related infrastructure:
 - Critical bugs may be eligible for **bug bounty rewards** in $IOB tokens.  
 - Once resolved, the issue will be documented in the **CHANGELOG.md**.  
 
-Thank you for helping us keep the IO Beats ecosystem secure 🔒.
+Thank you for helping us keep the iO Beats ecosystem secure 🔒.
