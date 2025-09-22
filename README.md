@@ -1,8 +1,9 @@
 # IO Beats Smart Contracts  
 
-[![Audit](https://img.shields.io/badge/Audit-CoinScope-green)](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
-[![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-blue)](./MULTICHAIN.md)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/LICENSE)  
+![Audit](https://img.shields.io/badge/Audit-CoinScope-green)  
+![Multi-Chain](https://img.shields.io/badge/Deployed-MultiChain-blue)  
+![License](https://img.shields.io/badge/License-MIT-yellow)  
+[![Docs](https://img.shields.io/badge/Documentation-Available-brightgreen)](https://github.com/iobeatss/iobeats-docs)
 
 Official repository for the **$IOB token smart contracts**.  
 IO Beats is a Web3 music ecosystem deployed on multiple EVM chains, combining NFTs, DeFi utilities, and community governance.  
