@@ -1,4 +1,4 @@
-# 🎶 IO Beats Smart Contracts
+# 🎶 iO Beats Smart Contracts
 
 ![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen?style=for-the-badge&logo=shield)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue?style=for-the-badge&logo=solidity)
@@ -11,8 +11,8 @@
 
 ## 📌 About
 
-**IO Beats ($IOB)** is a **Web3 music ecosystem** that connects **NFTs, DeFi utilities, and community governance**.  
-These smart contracts power the IO Beats token across multiple blockchains, ensuring **scalability, security, and accessibility**.
+**iO Beats ($IOB)** is a **Web3 music ecosystem** that connects **NFTs, DeFi utilities, and community governance**.  
+These smart contracts power the iO Beats token across multiple blockchains, ensuring **scalability, security, and accessibility**.
 
 - ✅ Built with **Solidity 0.8.24**  
 - ✅ Powered by **OpenZeppelin**  
@@ -101,6 +101,6 @@ See [LICENSE](./LICENSE) for details.
 
 ### 💡 Credits
 
-- Built with ❤️ by **IO Beats Team**  
+- Built with ❤️ by **iO Beats Team**  
 - Website: [iobeats.com](https://iobeats.com)  
 - Community: [Telegram](https://t.me/iobeatscommunity) | [X/Twitter](https://twitter.com/iobeats)
