@@ -2,7 +2,7 @@
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)  
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Library-orange.svg)](https://docs.openzeppelin.com/contracts)  
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](./audit.pdf)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)  
 
@@ -25,6 +25,7 @@ These smart contracts power the $IOB token across multiple blockchains, ensuring
 - [Multi-Chain Deployment](#-multi-chain-deployment)  
 - [Changelog](#-changelog)  
 - [Contributing](#-contributing)  
+- [Security Policy](#-security-policy)  
 - [License](#-license)  
 - [Credits](#-credits)  
 
@@ -64,7 +65,7 @@ Covers:
 - ✅ Resistance to common attacks  
 - ✅ Recommendations for improvements  
 
-📄 [Download Full Audit Report (PDF)](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
+📄 [Download Full Audit Report (PDF)](./audit.pdf)  
 
 ---
 
@@ -83,6 +84,11 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 ## 🤝 Contributing  
 We welcome contributions!  
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to propose changes, submit PRs, or report issues.  
+
+---
+
+## 🔐 Security Policy  
+📄 See [SECURITY.md](./SECURITY.md) for security practices, responsible disclosure, and contacts.  
 
 ---
 
