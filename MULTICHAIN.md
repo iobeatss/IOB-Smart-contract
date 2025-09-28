@@ -1,4 +1,4 @@
-# 🌐 IO Beats Multi-Chain Deployment  
+# 🌐 iO Beats Multi-Chain Deployment  
 
 The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensuring **accessibility, scalability, and ecosystem growth**.  
 
