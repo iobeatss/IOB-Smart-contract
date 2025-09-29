@@ -7,17 +7,18 @@ Includes historical milestones and future tasks.
 
 ## 🕑 Timeline & History
 
-- **06-06-2024** → First deployment of optimized **ERC-20 $IOB token** (v0.8.24).  
-- ✅ Token optimized with OpenZeppelin standards.  
-- ✅ Deployment done on **Ethereum mainnet**.  
-- ✅ Audit completed by **Cyberscope** (security + permissions + improvements).  
+- **06-06-2024** → First deployment of optimized **ERC-20 $IOB** (v0.8.24) on Ethereum.  
+- **Août 2025** → Optimization and refinements to the ERC-20 contract (gas, permissions, etc.).  
+  ✅ Audit result published: [Cyberscope audit report](https://github.com/cyberscope-io/audits/blob/main/iob/audit.pdf)  
+- ✅ Audit completed by **Cyberscope** (security, permissions, improvements).  
 
-Next steps: extend deployment to other EVM chains + governance expansion.
+Next steps: extend deployment, governance, NFT, vesting.
 
 ---
 
 ## 🔹 ERC-20 Contracts
 - [x] Deploy **ERC-20 $IOB token** (Ethereum mainnet, 06-06-2024).  
+- [x] Optimize contract (Aug 2025) — gas, access control, etc.  
 - [ ] Deploy on **BNB Chain, Polygon, Base, Arbitrum**.  
 - [ ] Verify contracts on **Etherscan, BscScan, BaseScan, PolygonScan, Arbiscan**.  
 - [ ] Write **SECURITY.md** for ERC-20 standards.  
@@ -49,13 +50,13 @@ Next steps: extend deployment to other EVM chains + governance expansion.
 ---
 
 ## 🔍 Audit & Security
-- [x] **Cyberscope audit** completed (ERC-20 v1.0, June 2024).  
+- [x] **Cyberscope audit** completed (post-optimization, Aug 2025).  
 - [ ] Ensure compliance with **OpenZeppelin best practices** for future versions.  
 - [ ] Plan second audit for **multichain deployment**.  
 - [ ] Document audit results in `AUDIT.md`.  
 
 📌 Labels: `Audit`, `Security`, `OpenZeppelin`  
-📌 Milestone: **v2.0 Full Deployment**
+📌 Milestone: **v1.1 Governance**
 
 ---
 
