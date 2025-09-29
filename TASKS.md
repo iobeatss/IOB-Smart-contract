@@ -1,12 +1,24 @@
 # ✅ IO Beats — Smart Contract Development Tasks
 
 This file centralizes all tasks to be tracked in the **IOB — Smart Contract Development** project.  
-Each section can be used as a GitHub issue template.
+Includes historical milestones and future tasks.
+
+---
+
+## 🕑 Timeline & History
+
+- **06-06-2024** → First deployment of optimized **ERC-20 $IOB token** (v0.8.24).  
+- ✅ Token optimized with OpenZeppelin standards.  
+- ✅ Deployment done on **Ethereum mainnet**.  
+- ✅ Audit completed by **Cyberscope** (security + permissions + improvements).  
+
+Next steps: extend deployment to other EVM chains + governance expansion.
 
 ---
 
 ## 🔹 ERC-20 Contracts
-- [ ] Deploy **ERC-20 $IOB token** (v0.8.24, OpenZeppelin base).  
+- [x] Deploy **ERC-20 $IOB token** (Ethereum mainnet, 06-06-2024).  
+- [ ] Deploy on **BNB Chain, Polygon, Base, Arbitrum**.  
 - [ ] Verify contracts on **Etherscan, BscScan, BaseScan, PolygonScan, Arbiscan**.  
 - [ ] Write **SECURITY.md** for ERC-20 standards.  
 
@@ -22,7 +34,7 @@ Each section can be used as a GitHub issue template.
 - [ ] Prepare **metadata URI schema** (IPFS + centralized backup).  
 
 📌 Labels: `ERC721`, `NFT`, `Royalties`, `Marketplace`  
-📌 Milestone: **v1.0 Smart Contracts**
+📌 Milestone: **v1.1 Governance**
 
 ---
 
@@ -37,17 +49,18 @@ Each section can be used as a GitHub issue template.
 ---
 
 ## 🔍 Audit & Security
-- [ ] Ensure compliance with **OpenZeppelin best practices**.  
-- [ ] Audit smart contracts with **Cyberscope**.  
+- [x] **Cyberscope audit** completed (ERC-20 v1.0, June 2024).  
+- [ ] Ensure compliance with **OpenZeppelin best practices** for future versions.  
+- [ ] Plan second audit for **multichain deployment**.  
 - [ ] Document audit results in `AUDIT.md`.  
 
 📌 Labels: `Audit`, `Security`, `OpenZeppelin`  
-📌 Milestone: **v1.1 Governance**
+📌 Milestone: **v2.0 Full Deployment**
 
 ---
 
 ## 🌐 Multi-Chain Deployment
-- [ ] Deploy contracts on **Ethereum, BNB Chain, Polygon, Base, Arbitrum**.  
+- [ ] Deploy contracts on **BNB Chain, Polygon, Base, Arbitrum**.  
 - [ ] Verify contracts on each explorer.  
 - [ ] Update `MULTICHAIN.md` with contract addresses.  
 - [ ] Add **deployment diagram** (PNG + PDF).  
@@ -58,7 +71,7 @@ Each section can be used as a GitHub issue template.
 ---
 
 ## 📚 Documentation
-- [ ] Update `README.md` with badges (Audit, License, Deployment, Docs).  
+- [x] Update `README.md` with badges (Audit, License, Deployment, Docs).  
 - [ ] Add `MILESTONES.md` to track roadmap.  
 - [ ] Maintain `CHANGELOG.md` for versioning.  
 - [ ] Write `CONTRIBUTING.md` guidelines.  
