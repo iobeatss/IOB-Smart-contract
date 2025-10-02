@@ -20,19 +20,23 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # ⚠️ Enlève le cache si pas de lockfile
+          # cache: 'npm'
 
       - name: Install deps
-        run: npm ci
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install --no-fund --no-audit
+          fi
 
-      # Compile & test Hardhat
       - name: Hardhat compile
         run: npx hardhat compile
 
       - name: Run tests
         run: npx hardhat test --network hardhat
 
-      # (Optionnel) Coverage si tu utilises solidity-coverage
       - name: Coverage
         if: ${{ hashFiles('node_modules/.bin/solidity-coverage') != '' }}
         run: npx hardhat coverage || true
@@ -52,7 +56,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-      - run: npm ci
+      - run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install --no-fund --no-audit
+          fi
       - name: Solhint lint
         run: npx solhint 'contracts/**/*.sol'
