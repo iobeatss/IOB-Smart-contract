@@ -3,14 +3,14 @@ name: Release on tag
 on:
   push:
     tags:
-      - 'v*'   # déclenchement sur v1.0.1, v2.0.73-rc.1 etc.
+      - 'v*'    # ex: v1.0.2, v2.0.73-rc.1
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # nécessaire pour créer/mettre à jour la Release et pousser changelog
+      contents: write   # créer/mettre à jour la Release
 
     steps:
       - name: Checkout
@@ -30,25 +30,70 @@ jobs:
       - name: Compile contracts
         run: npx hardhat compile
 
+      # Génère/rafraîchit CHANGELOG.md (format conventional commits)
       - name: Generate CHANGELOG.md
         run: |
           npx -y conventional-changelog-cli -p angular -i CHANGELOG.md -s || echo "skip changelog"
           git add CHANGELOG.md || true
 
-      - name: Upload build artifact (ABI + Bytecode)
+      # Rassemble les artefacts à publier dans un dossier unique
+      - name: Collect release assets
+        run: |
+          mkdir -p release-assets
+
+          # ABI / bytecode (ignore build-info bruyant)
+          rsync -av --include='*/' --include='*.json' --exclude='build-info/**' --exclude='*' artifacts/ release-assets/ 2>/dev/null || true
+
+          # Ajoute docs/audits si présents
+          for f in \
+            "audit.pdf" \
+            "IOB_Multichain_Deployment.pdf" \
+            "IOB_Multichain_Deployment.png" \
+            "IOBToken_0.8.24.sol" \
+            "flattened/**/*.sol" \
+            "SECURITY.md" \
+            "README.md"
+          do
+            # copie si le fichier (ou le glob) existe
+            shopt -s nullglob globstar
+            for g in $f; do
+              mkdir -p release-assets/$(dirname "$g")
+              cp -f "$g" "release-assets/$g"
+            done
+          done
+
+          # Ajoute un logo si présent
+          [ -f IOB_Icon_Token.png ] && cp IOB_Icon_Token.png release-assets/IOB_Icon_Token.png || true
+
+          # Ajoute le changelog à la release
+          [ -f CHANGELOG.md ] && cp CHANGELOG.md release-assets/CHANGELOG.md || true
+
+          # Checksums pratiques
+          (cd release-assets && find . -type f -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt)
+
+      - name: Upload build artifact (for debugging)
         uses: actions/upload-artifact@v4
         with:
-          name: contracts-artifacts
-          path: |
-            artifacts/**/*.json
-            !artifacts/build-info/**
+          name: release-assets
+          path: release-assets/**
+          if-no-files-found: ignore
+
+      # Détecte si c'est une pre-release (tag contenant un tiret, ex: v2.0.73-rc.1)
+      - name: Detect prerelease
+        id: pre
+        run: |
+          if [[ "${GITHUB_REF_NAME}" == *-* ]]; then
+            echo "is_prerelease=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "is_prerelease=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          prerelease: ${{ steps.pre.outputs.is_prerelease }}
           generate_release_notes: true
           files: |
-            artifacts/**/*.json
-            CHANGELOG.md
+            release-assets/**
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
