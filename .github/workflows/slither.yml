@@ -19,16 +19,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # remove cache: 'npm' since there is no package-lock.json
 
       - name: Install deps
-        run: npm ci
+        run: npm install --no-audit --no-fund
 
       - name: Run Slither
         uses: crytic/slither-action@v0.3.0
         with:
           target: .
-          solc-version: 0.8.24          # aligne avec ton hardhat.config.js
-          fail-on: high                  # ← ne bloque que sur HIGH/CRITICAL
-          sarif: true                    # exporte un rapport SARIF (facultatif)
+          solc-version: 0.8.24
+          fail-on: high
+          sarif: true
           slither-args: --filter-paths "node_modules"
