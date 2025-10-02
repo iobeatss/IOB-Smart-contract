@@ -1,0 +1,16 @@
+{
+  "name": "iob-smart-contract",
+  "version": "1.0.0",
+  "description": "IO Beats smart contracts",
+  "scripts": {
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "lint": "solhint 'contracts/**/*.sol'"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "solhint": "^4.5.3",
+    "solidity-coverage": "^0.8.12"
+  }
+}
