@@ -23,7 +23,15 @@ These smart contracts power the $IOB token across multiple blockchains, ensuring
 ---
 
 ## 📑 Table of Contents  
-- [Smart Contracts](#-smart-contracts) - [Audit](#-audit) - [Multi-Chain Deployment](#-multi-chain-deployment) - [Changelog](#-changelog) - [Contributing](#-contributing) - [Security Policy](#-security-policy) - [License](#-license) - [Credits](#-credits)  
+- [Smart Contracts](#-smart-contracts)  
+- [Audit](#-audit)  
+- [Multi-Chain Deployment](#-multi-chain-deployment)  
+- [Roadmap](#-roadmap-q4-2025--q2-2026)  
+- [Changelog](#-changelog)  
+- [Contributing](#-contributing)  
+- [Security Policy](#-security-policy)  
+- [License](#-license)  
+- [Credits](#-credits)  
 
 ---
 
@@ -72,30 +80,14 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ---
 
-## 📜 Changelog  
-📄 See [CHANGELOG.md](./CHANGELOG.md) for the full history of updates, fixes, and improvements.  
+## 🚀 Roadmap (Q4 2025 → Q2 2026)
 
----
-
-## 🤝 Contributing  
-We welcome contributions!  
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to propose changes, submit PRs, or report issues.  
-
----
-
-## 🔐 Security Policy  
-📄 See [SECURITY.md](./SECURITY.md) for security practices, responsible disclosure, and contacts.  
-
----
-
-## ⚖ License  
-This project is licensed under the [MIT License](./LICENSE).  
-
----
-
-## 💡 Credits  
-Built with ❤️ by **iO Beats Team**  
-
-🌐 Website: [iobeats.com](https://iobeats.com)  
-🎶 Music Player: [open.iobeats.com](https://open.iobeats.com)  
-💬 Community: [Telegram](https://t.me/iobeatscommunity) | [X/Twitter](https://x.com/iobeatsofficial) | [Discord](https://discord.com/invite/...)  
+```mermaid
+timeline
+    title IO Beats Roadmap
+    Q4 2025 : Smart contracts v1.0.1 : Multi-chain deployment : Audit Cyberscope validated
+           : Dashboard Dune Analytics online
+    Q1 2026 : Launch $IOB Vaults/Staking (Beefy/Gamma) : Player v2.1 (deep-linking, analytics, Telegram login)
+           : IO Beats Rooftop Events (Montreal/Toronto/Vancouver) : New DeFi/NFT partnerships
+    Q2 2026 : Mobile app (Android & iOS) : DAO Governance (Snapshot + Safe Multisig)
+           : Shopify + NFT Passes integration : Expansion to Optimism, zkSync, Solana testnet
