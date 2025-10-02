@@ -1,0 +1,58 @@
+name: CI — Smart Contracts
+
+on:
+  push:
+    branches: [ "main", "dev", "feature/**" ]
+  pull_request:
+    branches: [ "main", "dev" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      # Compile & test Hardhat
+      - name: Hardhat compile
+        run: npx hardhat compile
+
+      - name: Run tests
+        run: npx hardhat test --network hardhat
+
+      # (Optionnel) Coverage si tu utilises solidity-coverage
+      - name: Coverage
+        if: ${{ hashFiles('node_modules/.bin/solidity-coverage') != '' }}
+        run: npx hardhat coverage || true
+
+      - name: Upload coverage artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage/
+          if-no-files-found: ignore
+
+  solhint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - run: npm ci
+      - name: Solhint lint
+        run: npx solhint 'contracts/**/*.sol'
