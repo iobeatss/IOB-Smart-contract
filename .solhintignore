@@ -1,0 +1,3 @@
+git add .solhintignore
+git commit -m "chore: add solhint ignore file"
+git push
