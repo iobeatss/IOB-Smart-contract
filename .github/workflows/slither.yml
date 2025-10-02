@@ -1,0 +1,33 @@
+name: Static Analysis — Slither
+
+on:
+  pull_request:
+  push:
+    branches: [ "main", "dev" ]
+
+permissions:
+  contents: read
+
+jobs:
+  slither:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run Slither
+        uses: crytic/slither-action@v0.3.0
+        with:
+          node-version: 20
+          solc-version: 0.8.24        # adapte si nécessaire
+          fail-on: medium             # échoue si findings ≥ medium
+          target: .
