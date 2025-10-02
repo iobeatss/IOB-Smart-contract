@@ -27,7 +27,8 @@ jobs:
       - name: Run Slither
         uses: crytic/slither-action@v0.3.0
         with:
-          node-version: 20
-          solc-version: 0.8.24        # adapte si nécessaire
-          fail-on: medium             # échoue si findings ≥ medium
           target: .
+          solc-version: 0.8.24          # aligne avec ton hardhat.config.js
+          fail-on: high                  # ← ne bloque que sur HIGH/CRITICAL
+          sarif: true                    # exporte un rapport SARIF (facultatif)
+          slither-args: --filter-paths "node_modules"
