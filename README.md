@@ -5,6 +5,7 @@
 [![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](./audit.pdf)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)  
+[![Slither Analysis](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml/badge.svg)](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml)  
 
 ---
 
