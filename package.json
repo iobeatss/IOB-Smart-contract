@@ -1,11 +1,19 @@
 {
   "name": "iob-smart-contract",
   "version": "1.0.0",
+  "private": true,
   "description": "IO Beats smart contracts",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
+    "compile": "hardhat compile",
     "test": "hardhat test",
     "coverage": "hardhat coverage",
-    "lint": "solhint 'contracts/**/*.sol'"
+    "lint": "solhint 'contracts/**/*.sol'",
+    "lint:fix": "solhint --fix 'contracts/**/*.sol'",
+    "lint:strict": "solhint --max-warnings=0 'contracts/**/*.sol'",
+    "prepare": "echo \"✓ iob-smart-contract ready\""
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0"
@@ -17,3 +25,4 @@
     "solidity-coverage": "^0.8.12"
   }
 }
+
