@@ -1,6 +1,6 @@
-# Contributing to IO Beats 🎶
+# Contributing to iO Beats
 
-Thank you for your interest in contributing to **IO Beats** 🚀  
+Thank you for your interest in contributing to **iO Beats** 🚀  
 This repository hosts the official smart contracts for the **$IOB token** and related components of the IO Beats ecosystem.
 
 We welcome all contributions — code, documentation, testing, or feedback.
