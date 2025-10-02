@@ -6,7 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)  
 [![Slither Analysis](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml/badge.svg)](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml)  
-[![Latest Release](https://img.shields.io/github/v/release/iobeatss/IOB-Smart-contract?sort=semver)](https://github.com/iobeatss/IOB-Smart-contract/releases)  
+[![Security Policy](https://img.shields.io/badge/Security-Policy-red.svg)](./SECURITY.md)  
+[![Changelog](https://img.shields.io/badge/Changelog-Maintained-blueviolet.svg)](./CHANGELOG.md)  
 
 ---
 
@@ -79,27 +80,7 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 ---
 
 ## 📜 Changelog  
-
-### Latest Release — [v1.0.1](https://github.com/iobeatss/IOB-Smart-contract/releases/tag/v1.0.1) (2025-10-02)  
-
-#### ✅ Added  
-- ERC20 unit tests: `transfer`, `approve`, `allowance`, chained transfers (`owner → addr1 → addr2`).  
-
-#### 🔧 Fixed  
-- `package.json` updated to correctly include **@openzeppelin/contracts** dependency.  
-
-#### ⚡ Improved  
-- **Hardhat config** simplified and more robust.  
-- CI/CD: added **coverage** and **Slither static analysis**.  
-- GitHub Actions pipeline now includes compilation, tests, and automated deployments.  
-
-#### 🔒 Security  
-- Slither integrated into CI.  
-- Hardhat deployment tests included.  
-- ✅ No critical vulnerabilities found.  
-- Cyberscope audit remains valid for core contract logic.  
-
-📄 Full history available in [CHANGELOG.md](./CHANGELOG.md)  
+📄 See [CHANGELOG.md](./CHANGELOG.md) for the full history of updates, fixes, and improvements.  
 
 ---
 
