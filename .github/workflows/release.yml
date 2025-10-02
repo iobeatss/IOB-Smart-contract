@@ -1,0 +1,54 @@
+name: Release on tag
+
+on:
+  push:
+    tags:
+      - 'v*'   # ex: v1.1.0
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Compile
+        run: npx hardhat compile
+
+      # (Optionnel) Génère un changelog simple à partir des commits
+      - name: Generate CHANGELOG.md
+        run: |
+          npx -y conventional-changelog-cli -p angular -i CHANGELOG.md -s || echo "changelog step skipped"
+          git add CHANGELOG.md || true
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts
+          path: |
+            artifacts/
+            cache/
+          if-no-files-found: ignore
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            artifacts/**
+            coverage/**/*
+            CHANGELOG.md
