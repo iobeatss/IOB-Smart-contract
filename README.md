@@ -6,6 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)  
 [![Slither Analysis](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml/badge.svg)](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml)  
+[![Latest Release](https://img.shields.io/github/v/release/iobeatss/IOB-Smart-contract?sort=semver)](https://github.com/iobeatss/IOB-Smart-contract/releases)  
 
 ---
 
@@ -79,7 +80,8 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ## 📜 Changelog  
 
-### [v1.0.1] - 2025-10-02  
+### Latest Release — [v1.0.1](https://github.com/iobeatss/IOB-Smart-contract/releases/tag/v1.0.1) (2025-10-02)  
+
 #### ✅ Added  
 - ERC20 unit tests: `transfer`, `approve`, `allowance`, chained transfers (`owner → addr1 → addr2`).  
 
@@ -91,25 +93,13 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 - CI/CD: added **coverage** and **Slither static analysis**.  
 - GitHub Actions pipeline now includes compilation, tests, and automated deployments.  
 
-#### 📜 Contracts  
-- `contracts/IOBToken_0.8.24.sol` — optimized ERC20 main contract.  
-- `legacy/IOBToken_0.8.16_legacy.sol` — archived reference version.  
-- `flattened/IOBToken_0.8.24_flat.sol` — flattened version for Etherscan verification.  
-
 #### 🔒 Security  
 - Slither integrated into CI.  
 - Hardhat deployment tests included.  
 - ✅ No critical vulnerabilities found.  
 - Cyberscope audit remains valid for core contract logic.  
 
----
-
-### [v1.0.0] - 2025-09-25  
-#### 🎉 Initial Release  
-- First official release of **IO Beats ($IOB) smart contracts**.  
-- Main ERC20 contract deployed with **Cyberscope audit**.  
-- Multi-chain deployment: Ethereum, BNB Chain, Polygon, Base, Arbitrum.  
-- Documentation added: `README.md`, `SECURITY.md`, `CONTRIBUTING.md`, `MULTICHAIN.md`.  
+📄 Full history available in [CHANGELOG.md](./CHANGELOG.md)  
 
 ---
 
