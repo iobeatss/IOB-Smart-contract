@@ -26,7 +26,6 @@ These smart contracts power the $IOB token across multiple blockchains, ensuring
 - [Smart Contracts](#-smart-contracts)  
 - [Audit](#-audit)  
 - [Multi-Chain Deployment](#-multi-chain-deployment)  
-- [Roadmap](#-io-beats--smart-contracts-roadmap-2025--2026)  
 - [Changelog](#-changelog)  
 - [Contributing](#-contributing)  
 - [Security Policy](#-security-policy)  
