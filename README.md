@@ -95,7 +95,7 @@ All milestones are aligned with transparency, security, and scalability.
 
 ---
 
-## 📊 Visual Roadmap
+# 📊 Visual Roadmap
 
 ```mermaid
 gantt
