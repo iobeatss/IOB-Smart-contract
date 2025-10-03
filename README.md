@@ -79,8 +79,3 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 📄 See full details in [MULTICHAIN.md](./MULTICHAIN.md)  
 
 ---
-
-
-    section Q4 2026
-    Tier 1 CEX Requirements                    :planned, q4-cex,     2026-10, 2026-12
-    Additional Cross-chain Vaults              :planned, q4-vaults,  2026-10, 2026-12
