@@ -26,6 +26,7 @@ These smart contracts power the $IOB token across multiple blockchains, ensuring
 - [Smart Contracts](#-smart-contracts)  
 - [Audit](#-audit)  
 - [Multi-Chain Deployment](#-multi-chain-deployment)  
+- [Roadmap](#-io-beats--smart-contracts-roadmap-2025--2026)  
 - [Changelog](#-changelog)  
 - [Contributing](#-contributing)  
 - [Security Policy](#-security-policy)  
@@ -79,14 +80,12 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ---
 
-# 🛠️ IO Beats — Smart Contracts Roadmap
+# 🛠️ IO Beats — Smart Contracts Roadmap (2025 → 2026)
 
 This roadmap outlines the development and deployment of the **IO Beats Smart Contracts** across multiple blockchains.  
 All milestones are aligned with transparency, security, and scalability.
 
 ---
-
-# 🛠️ IO Beats — Smart Contracts Roadmap (2025 → 2026)
 
 ## 📌 Status Legend
 - ✅ Done  
@@ -95,7 +94,11 @@ All milestones are aligned with transparency, security, and scalability.
 
 ---
 
-# 📊 Visual Roadmap
+## 📊 Visual Roadmap (Mermaid)
+
+> ⚠️ Note: GitHub ne supporte pas encore les diagrammes Mermaid **Gantt**.  
+> Tu peux ouvrir ce code dans **VSCode + extension Markdown Preview Mermaid** ou **Obsidian** pour le rendu visuel.  
+> Dans GitHub, il s’affichera en bloc de code texte.  
 
 ```mermaid
 gantt
