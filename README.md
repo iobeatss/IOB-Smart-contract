@@ -86,15 +86,46 @@ All milestones are aligned with transparency, security, and scalability.
 
 ---
 
-## 📊 Visual Timeline
+# 🛠️ IO Beats — Smart Contracts Roadmap (2025 → 2026)
+
+## 📌 Status Legend
+- ✅ Done  
+- 🟡 In Progress  
+- ⏳ Planned  
+
+---
+
+## 📊 Visual Roadmap
 
 ```mermaid
-timeline
-  title Roadmap iO Beats Smart Contracts
-  Q4 2025 : Presale (Multi-chain, 2 weeks / chain) ⏳ : Deploy Presale Contracts · Safe multisig setup · Token locks
-  Q1 2026 : Mobile App + Staking Vaults ⏳ : Android & iOS app · Beefy / Gamma vaults integration · Rewards program
-  Q2 2026 : NFT & Marketplace ⏳ : NFT V3 Shareholder Pass · Shopify integration for merch & passes · Marketplace tickets
-  Q3 2026 : Governance & DAO ⏳ : Snapshot DAO launch · On-chain voting · Extended staking + loyalty program
-  Q4 2026 : Expansion & Partnerships ⏳ : CEX listings · More DeFi integrations · Global event tie-ins (Montreal, Toronto, Vancouver)
+gantt
+    title IO Beats — Smart Contracts Roadmap (2025 → 2026)
+    dateFormat  YYYY-MM
+    axisFormat  %Q %Y
 
+    section Q3 2025
+    ERC20 Optimization (Audit + Deploy)        :done,    q3-erc20, 2025-07, 2025-09
 
+    section Q4 2025
+    Presale Contracts (per chain)              :planned, q4-presale, 2025-10, 2025-12
+    Safe Multisigs (4-of-7)                    :planned, q4-safe,    2025-10, 2025-12
+    Locks & Vestings (UNCX/TeamFinance)        :planned, q4-locks,   2025-10, 2025-12
+
+    section Q1 2026
+    Vaults & Staking (Beefy + Gamma)           :planned, q1-vaults,  2026-01, 2026-03
+    Rewards Distribution Contracts             :planned, q1-rewards, 2026-01, 2026-03
+    Loyalty Perks (tiers & bonuses)            :planned, q1-loyalty, 2026-01, 2026-03
+
+    section Q2 2026
+    ERC-721 / NFT Contracts                    :planned, q2-nft,     2026-04, 2026-06
+    Cross-chain Royalties (ERC-2981)           :planned, q2-royalty, 2026-04, 2026-06
+    Ticketing Contracts (Events)               :planned, q2-tickets, 2026-04, 2026-06
+
+    section Q3 2026
+    Snapshot Integration (DAO)                 :planned, q3-snap,    2026-07, 2026-09
+    On-chain Proposal Registry                 :planned, q3-prop,    2026-07, 2026-09
+    DAO Treasury Automation                    :planned, q3-dao,     2026-07, 2026-09
+
+    section Q4 2026
+    Tier 1 CEX Requirements                    :planned, q4-cex,     2026-10, 2026-12
+    Additional Cross-chain Vaults              :planned, q4-vaults,  2026-10, 2026-12
