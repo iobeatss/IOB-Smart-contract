@@ -80,14 +80,6 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ---
 
-## 🚀 Roadmap (Q4 2025 → Q2 2026)
 
-```mermaid
-timeline
-    title IO Beats Roadmap
-    Q4 2025 : Smart contracts v1.0.1 : Multi-chain deployment : Audit Cyberscope validated
-           : Dashboard Dune Analytics online
-    Q1 2026 : Launch $IOB Vaults/Staking (Beefy/Gamma) : Player v2.1 (deep-linking, analytics, Telegram login)
-           : IO Beats Rooftop Events (Montreal/Toronto/Vancouver) : New DeFi/NFT partnerships
-    Q2 2026 : Mobile app (Android & iOS) : DAO Governance (Snapshot + Safe Multisig)
-           : Shopify + NFT Passes integration : Expansion to Optimism, zkSync, Solana testnet
+👉 Veux-tu que je génère aussi un **PNG/PDF visuel avec la légende incluse** (export de la timeline Mermaid) pour que tu puisses l’ajouter directement dans le README ou en présentation ?
+
