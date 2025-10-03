@@ -80,54 +80,6 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ---
 
-# 🛠️ IO Beats — Smart Contracts Roadmap (2025 → 2026)
-
-This roadmap outlines the development and deployment of the **IO Beats Smart Contracts** across multiple blockchains.  
-All milestones are aligned with transparency, security, and scalability.
-
----
-
-## 📌 Status Legend
-- ✅ Done  
-- 🟡 In Progress  
-- ⏳ Planned  
-
----
-
-## 📊 Visual Roadmap (Mermaid)
-
-> ⚠️ Note: GitHub ne supporte pas encore les diagrammes Mermaid **Gantt**.  
-> Tu peux ouvrir ce code dans **VSCode + extension Markdown Preview Mermaid** ou **Obsidian** pour le rendu visuel.  
-> Dans GitHub, il s’affichera en bloc de code texte.  
-
-```mermaid
-gantt
-    title IO Beats — Smart Contracts Roadmap (2025 → 2026)
-    dateFormat  YYYY-MM
-    axisFormat  %Q %Y
-
-    section Q3 2025
-    ERC20 Optimization (Audit + Deploy)        :done,    q3-erc20, 2025-07, 2025-09
-
-    section Q4 2025
-    Presale Contracts (per chain)              :planned, q4-presale, 2025-10, 2025-12
-    Safe Multisigs (4-of-7)                    :planned, q4-safe,    2025-10, 2025-12
-    Locks & Vestings (UNCX/TeamFinance)        :planned, q4-locks,   2025-10, 2025-12
-
-    section Q1 2026
-    Vaults & Staking (Beefy + Gamma)           :planned, q1-vaults,  2026-01, 2026-03
-    Rewards Distribution Contracts             :planned, q1-rewards, 2026-01, 2026-03
-    Loyalty Perks (tiers & bonuses)            :planned, q1-loyalty, 2026-01, 2026-03
-
-    section Q2 2026
-    ERC-721 / NFT Contracts                    :planned, q2-nft,     2026-04, 2026-06
-    Cross-chain Royalties (ERC-2981)           :planned, q2-royalty, 2026-04, 2026-06
-    Ticketing Contracts (Events)               :planned, q2-tickets, 2026-04, 2026-06
-
-    section Q3 2026
-    Snapshot Integration (DAO)                 :planned, q3-snap,    2026-07, 2026-09
-    On-chain Proposal Registry                 :planned, q3-prop,    2026-07, 2026-09
-    DAO Treasury Automation                    :planned, q3-dao,     2026-07, 2026-09
 
     section Q4 2026
     Tier 1 CEX Requirements                    :planned, q4-cex,     2026-10, 2026-12
