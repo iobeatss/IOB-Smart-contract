@@ -13,14 +13,13 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 
 ## ✅ Current Contracts (Audited by Cyberscope)  
 
-| Chain     | Contract Address                                     | Explorer Link                                                                 |
-|-----------|------------------------------------------------------|-------------------------------------------------------------------------------|
-| Ethereum  | `0xDaD68778f0a0732E232f27dc296e3602E12d108A`         | [View on Etherscan](https://etherscan.io/token/0xDaD68778f0a0732E232f27dc296e3602E12d108A) |
-| BNB Chain | `0x13ed5aC0a6AbE5bbB1881d75ad05Fe9e22478238`         | [View on BscScan](https://bscscan.com/token/0x13ed5aC0a6AbE5bbB1881d75ad05Fe9e22478238) |
-| Base      | `0x80a23f168831d6e1f0a1353dbf3a75cae16cb709`         | [View on BaseScan](https://basescan.org/token/0x80a23f168831d6e1f0a1353dbf3a75cae16cb709) |
-| Polygon   | `0xee09fc58439f3bd514dd5cfb3b3e383e4788ecca`         | [View on PolygonScan](https://polygonscan.com/token/0xee09fc58439f3bd514dd5cfb3b3e383e4788ecca) |
-| Arbitrum  | `0x461db9ac7eca7955a1f87e300dde8b32cc0eaac0`         | [View on ArbiScan](https://arbiscan.io/token/0x461db9ac7eca7955a1f87e300dde8b32cc0eaac0) |
-
+| Chain | Standard | Contract | Explorer |
+|--------|-----------|-----------|-----------|
+| **Ethereum** | ERC20 | `0xc2aF820610e055264F928388B85CDEDe6A21d710` | [View on Etherscan](https://etherscan.io/token/0xc2af820610e055264f928388b85cdede6a21d710) |
+| **BNB Chain** | BEP20 | `0x0366bb765b8e7180f8e0f6c33b93fdcaa0a4d447` | [View on BscScan](https://bscscan.com/token/0x0366bb765b8e7180f8e0f6c33b93fdcaa0a4d447) |
+| **Base** | ERC20 | `0x27df736a873a5bc0ce056e52459d61ed1720da86` | [View on BaseScan](https://basescan.org/token/0x27df736a873a5bc0ce056e52459d61ed1720da86) |
+| **Polygon** | ERC20 | `0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b` | [View on PolygonScan](https://polygonscan.com/token/0xfd9d9dad90a925630ffbd7ee7b2b57581269c63b) |
+| **Arbitrum** | ERC20 | `0xc720d3a15e97347ec501fd3011613c5b9337134d` | [View on Arbiscan](https://arbiscan.io/token/0xc720d3a15e97347ec501fd3011613c5b9337134d) |
 ---
 
 ## 🧱 Network Overview  
