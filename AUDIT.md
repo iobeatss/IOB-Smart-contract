@@ -24,7 +24,7 @@ This document centralizes all **audit, verification, and security review details
 
 | Version | Auditor | Date | Scope | Status |
 |----------|----------|------|--------|--------|
-| **v1.0** | CoinScope | March 2024 | Initial ERC-20 deployments (ETH · BNB · Polygon · Base · Arbitrum) | ✅ Passed |
+| **v1.0** | CoinScope | October 2025 | Initial ERC-20 deployments (ETH · BNB · Polygon · Base · Arbitrum) | ✅ Passed |
 | **v1.1** | Cyberscope | October 2025 | Updated multi-chain deployments, Safe integration, on-chain governance | ✅ Passed |
 | **v1.2** | Pending | Q2 2026 (Planned) | Sablier Vesting + NFT Royalty Splitter integration | ⏳ Scheduled |
 | **v1.3** | DAO Review / Open Audit | Q4 2026 (Planned) | Community-driven audit through Snapshot DAO funding | 🧠 Proposal Stage |
