@@ -10,7 +10,11 @@
   [iobeats-player](https://github.com/iobeatss/iobeats-player) ·
   [BeatsApe](https://github.com/iobeatss/BeatsApe) ·
   [iobeats-docs](https://github.com/iobeatss/iobeats-docs) ·
-  [iobeats-logo-assets](https://github.com/iobeatss/iobeats-logo-assets) 
+  [iobeats-logo-assets](https://github.com/iobeatss/iobeats-logo-assets)
+
+- **Documentation:**  
+  [MultiChain Deployment](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md) ·
+  [Changelog](https://github.com/iobeatss/IOB-Smart-contract/blob/main/CHANGELOG.md)
 
 ---
 
@@ -21,10 +25,10 @@
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Library-orange.svg)](https://docs.openzeppelin.com/contracts)  
 [![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://www.cyberscope.io/audits/iob)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
-[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](./MULTICHAIN.md)  
+[![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md)  
 [![Slither Analysis](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml/badge.svg)](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml)  
 [![Security Policy](https://img.shields.io/badge/Security-Policy-red.svg)](./SECURITY.md)  
-[![Changelog](https://img.shields.io/badge/Changelog-Maintained-blueviolet.svg)](./CHANGELOG.md)  
+[![Changelog](https://img.shields.io/badge/Changelog-Maintained-blueviolet.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/CHANGELOG.md)  
 
 ---
 
@@ -50,6 +54,21 @@ and has been **audited by [Cyberscope](https://www.cyberscope.io/audits/iob)** t
 
 > 🛡️ All contracts are fully **open-source**, licensed under **MIT**,  
 > and integrated with **Safe multisigs** for treasury and governance operations.  
+
+---
+
+## 🏛 DAO Governance Safes (Multisig Treasury)
+
+| Chain | Safe Address | Explorer |
+|--------|---------------|-----------|
+| **Ethereum** | `0x...` | [View on Safe](https://app.safe.global/home?safe=eth:0x...) |
+| **BNB Chain** | `0x...` | [View on Safe](https://app.safe.global/home?safe=bnb:0x...) |
+| **Base** | `0x...` | [View on Safe](https://app.safe.global/home?safe=base:0x...) |
+| **Polygon** | `0x...` | [View on Safe](https://app.safe.global/home?safe=polygon:0x...) |
+| **Arbitrum** | `0x...` | [View on Safe](https://app.safe.global/home?safe=arbitrum:0x...) |
+
+> 🔒 All DAO and treasury operations are managed via **4/7 multisig Safe wallets**  
+> ensuring **maximum transparency**, **security**, and **community governance**.  
 
 ---
 
