@@ -1,7 +1,7 @@
 # 🛡️ IO Beats — Smart Contract Audits  
 
 This document centralizes all **audit, verification, and security review details** for the  
-**IO Beats ($IOB)** ecosystem smart contracts deployed across multiple EVM-compatible blockchains.  
+**IO Beats ($IOB)** smart contracts deployed across multiple EVM-compatible blockchains.  
 
 ---
 
@@ -15,36 +15,48 @@ This document centralizes all **audit, verification, and security review details
 | **Chains** | Ethereum · BNB Chain · Polygon · Base · Arbitrum |
 | **Frameworks** | Hardhat · OpenZeppelin · Slither CI/CD |
 | **License** | MIT |
-| **Auditors** | [Cyberscope](https://www.cyberscope.io/audits/iob) · [CoinScope](https://www.coinscope.co/coin/iob) |
+| **Auditors** | [Cyberscope](https://www.cyberscope.io/) · [CoinScope](https://www.coinscope.co/) |
 | **Last Updated** | October 2025 |
+
+---
+
+## 📜 Audit Timeline  
+
+| Version | Auditor | Date | Scope | Status |
+|----------|----------|------|--------|--------|
+| **v1.0** | CoinScope | March 2024 | Initial ERC-20 deployments (ETH · BNB · Polygon · Base · Arbitrum) | ✅ Passed |
+| **v1.1** | Cyberscope | October 2025 | Updated multi-chain deployments, Safe integration, on-chain governance | ✅ Passed |
+| **v1.2** | Pending | Q2 2026 (Planned) | Sablier Vesting + NFT Royalty Splitter integration | ⏳ Scheduled |
+| **v1.3** | DAO Review / Open Audit | Q4 2026 (Planned) | Community-driven audit through Snapshot DAO funding | 🧠 Proposal Stage |
+
+> 🧾 Each audit iteration will remain publicly accessible and version-controlled on GitHub for **permanent transparency**.  
 
 ---
 
 ## ✅ Current Audit (Cyberscope — 2025)
 
-**Status:** ✅ Passed — No Critical or High vulnerabilities found.  
+**Status:** ✅ Passed — No critical or high severity issues found.  
 **Scope:**  
-- Token contracts (ERC-20, BEP-20)  
-- Ownership and access control  
+- Token contracts (ERC-20 / BEP-20)  
+- Ownership & access control  
 - Safe multisig integration  
-- Supply and vesting configuration  
-- DAO Treasury wallet verification  
+- Supply & vesting configuration  
+- DAO Treasury verification  
 
 📄 **Full Report (Cyberscope):**  
 [Download Audit Report (PDF)](https://raw.githubusercontent.com/cyberscope-io/audits/main/iob/audit.pdf)  
 
-> 🔒 The audit confirms that $IOB contracts are **secure, verified, and aligned with best practices** in  
-> token architecture, access control, and multisig safety.
+> 🔒 The audit confirms that $IOB contracts are **secure, verified, and compliant with modern DeFi standards**.
 
 ---
 
 ## 🧩 Previous Audit (CoinScope — Legacy 2024)
 
-**Status:** ✅ Verified (Legacy deployment)  
-**Chains:** Ethereum · BNB Chain · Polygon · Base · Arbitrum  
-**Scope:** Initial ERC-20 deployment, transfer logic, and ownership safety.  
+**Status:** ✅ Verified (Legacy Deployment)  
+**Scope:** Initial ERC-20 token architecture and ownership mechanisms.  
 **Note:** Superseded by the Cyberscope audit in 2025.  
-Legacy contracts remain available in the [MULTICHAIN.md](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md) for transparency.
+
+Legacy contracts remain publicly visible in [**MULTICHAIN.md**](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md) for transparency.  
 
 ---
 
@@ -52,17 +64,17 @@ Legacy contracts remain available in the [MULTICHAIN.md](https://github.com/iobe
 
 | Layer | Description |
 |-------|--------------|
-| **Multisig Treasury** | All DAO and treasury funds are protected by **4/7 Safe multisigs** on every chain. |
-| **Snapshot Governance** | On-chain proposals and DAO decisions managed via [Snapshot](https://snapshot.box/#/s:iobdao.eth). |
-| **Dune Analytics** | Real-time transparency dashboards for Safe inflows/outflows and balances. |
-| **OpenZeppelin Standards** | Contracts implemented using **OZ v5.0** for security and reliability. |
-| **Slither CI/CD** | Automated static analysis for vulnerabilities during every GitHub workflow. |
+| **Multisig Treasury** | 4 / 7 Safe multisigs on every chain for DAO and treasury funds. |
+| **Snapshot Governance** | DAO voting and proposals on [Snapshot](https://snapshot.box/#/s:iobdao.eth). |
+| **Dune Analytics** | Real-time on-chain transparency dashboards for Safe flows and balances. |
+| **OpenZeppelin Standards** | OZ v5.0 framework for battle-tested smart contracts. |
+| **Slither CI/CD** | Continuous automated static analysis for vulnerability detection. |
 
 ---
 
 ## 🔍 Verification  
 
-All deployed contracts are **verified on-chain** on each explorer:  
+All deployed contracts are **verified on-chain** and publicly auditable.  
 
 | Chain | Explorer |
 |--------|-----------|
@@ -84,8 +96,7 @@ All deployed contracts are **verified on-chain** on each explorer:
 | **Polygon** | `0x...` | [View on Safe](https://app.safe.global/home?safe=polygon:0x...) |
 | **Arbitrum** | `0x...` | [View on Safe](https://app.safe.global/home?safe=arbitrum:0x...) |
 
-> 💡 DAO funds are verifiably on-chain and managed via multisig access,  
-> ensuring maximum transparency and decentralization.
+> 💡 DAO funds are verifiably on-chain and secured through multi-signature access.
 
 ---
 
@@ -94,14 +105,14 @@ All deployed contracts are **verified on-chain** on each explorer:
 | Tool | Purpose |
 |------|----------|
 | **Slither** | Static analysis for vulnerability detection |
-| **Hardhat** | Development, testing, and deployment automation |
-| **OpenZeppelin Defender** | Contract monitoring and upgrade safety |
-| **Safe Global** | Multisig fund management |
-| **GitHub Actions** | Automated CI/CD pipelines for linting and security validation |
+| **Hardhat** | Contract development & testing |
+| **OpenZeppelin Defender** | Secure contract operations and upgrades |
+| **Safe Global** | Treasury management via multisigs |
+| **GitHub Actions** | Automated security workflows (CI/CD) |
 
 ---
 
-## 🧩 Related Documents  
+## 📚 Related Documents  
 
 - [MULTICHAIN.md](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md)  
 - [CHANGELOG.md](https://github.com/iobeatss/IOB-Smart-contract/blob/main/CHANGELOG.md)  
@@ -110,12 +121,18 @@ All deployed contracts are **verified on-chain** on each explorer:
 
 ---
 
-## 🧠 Summary  
+## 🧩 Summary  
 
-The **IO Beats DAO** prioritizes transparency and reliability by combining:  
-- **Audited smart contracts (Cyberscope + CoinScope)**  
-- **Multisig treasury protection**  
-- **Public Dune dashboards**  
-- **Snapshot governance**  
-- **Open-source code under MIT license**
+The **IO Beats DAO** enforces transparency and resilience through:  
+- ✅ **Audited contracts by Cyberscope & CoinScope**  
+- 🔒 **Multisig treasury architecture**  
+- 📊 **Dune dashboards & on-chain tracking**  
+- 🗳️ **Snapshot governance framework**  
+- 📜 **MIT-licensed open-source code**  
 
+---
+
+<p align="center">
+  <b>“Security builds trust — trust builds community.”</b><br/>
+  <i>— IO Beats DAO Transparency Program v1.0</i>
+</p>
