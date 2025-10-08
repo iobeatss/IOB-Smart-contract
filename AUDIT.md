@@ -15,7 +15,7 @@ This document centralizes all **audit, verification, and security review details
 | **Chains** | Ethereum · BNB Chain · Polygon · Base · Arbitrum |
 | **Frameworks** | Hardhat · OpenZeppelin · Slither CI/CD |
 | **License** | MIT |
-| **Auditors** | [Cyberscope](https://www.cyberscope.io/) · [CoinScope](https://www.coinscope.co/) |
+| **Auditors** | [Cyberscope](https://www.cyberscope.io/audits/iob) · [CoinScope](https://www.coinscope.co/coin/iob) |
 | **Last Updated** | October 2025 |
 
 ---
