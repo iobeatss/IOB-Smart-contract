@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif"
+       alt="IO Beats Smart Contracts Banner" width="100%" />
+</p>
+
 # 🎶 iO Beats — Smart Contracts  
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)  
@@ -44,9 +49,3 @@ and has been **audited by [Cyberscope](https://www.cyberscope.io/audits/iob)** t
 - **Security Layers:** Multisig Treasury · Snapshot DAO · Dune Transparency  
 - **Next Update:** Integration of NFT Royalty Splitter & Sablier Vesting (v1.2)  
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif"
-       alt="IO Beats Smart Contracts Banner" width="100%" />
-</p>
