@@ -14,6 +14,7 @@
 
 - **Documentation:**  
   [MultiChain Deployment](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md) ·
+  [Audit Report](https://github.com/iobeatss/IOB-Smart-contract/blob/main/AUDIT.md) ·
   [Changelog](https://github.com/iobeatss/IOB-Smart-contract/blob/main/CHANGELOG.md)
 
 ---
@@ -23,7 +24,7 @@
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue.svg?logo=solidity)](https://docs.soliditylang.org/en/v0.8.24/)  
 [![Hardhat](https://img.shields.io/badge/Built%20With-Hardhat-yellow.svg)](https://hardhat.org/)  
 [![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Library-orange.svg)](https://docs.openzeppelin.com/contracts)  
-[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://www.cyberscope.io/audits/iob)  
+[![Audit](https://img.shields.io/badge/Audit-Cyberscope-brightgreen.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/AUDIT.md)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)  
 [![Deployment](https://img.shields.io/badge/Deployed-MultiChain-purple.svg)](https://github.com/iobeatss/IOB-Smart-contract/blob/main/MULTICHAIN.md)  
 [![Slither Analysis](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml/badge.svg)](https://github.com/iobeatss/IOB-Smart-contract/actions/workflows/slither.yml)  
