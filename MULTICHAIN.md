@@ -43,9 +43,3 @@ The $IOB token is deployed across multiple **EVM-compatible blockchains**, ensur
 These addresses represent the **official live deployment** of the $IOB token across all EVM chains.  
 Old test deployments are preserved separately for transparency in DAO archives.  
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/iobeatss/iobeats-logo-assets/main/hero1.gif"
-       alt="IO Beats Multichain Banner" width="100%" />
-</p>
